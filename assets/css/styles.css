@@ -43,24 +43,6 @@ a {
     opacity: 0.9;
 }
 
-.control__btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    border: 1px solid #575f66;
-    outline: none;
-    color: #575f66;
-    background: #fff;
-    transition: 0.25s;
-}
-
-.control-next-icon {
-    rotate: 180deg;
-}
-
 .container {
     margin: 0 auto;
     width: 1170px;
@@ -449,4 +431,22 @@ a {
     font-size: 1.4rem;
     line-height: 1.86;
     color: #575f66;
+}
+
+.control__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #575f66;
+    outline: none;
+    color: #575f66;
+    background: #fff;
+    transition: 0.25s;
+}
+
+.control-next-icon {
+    rotate: 180deg;
 }
