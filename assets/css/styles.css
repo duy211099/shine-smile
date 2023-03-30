@@ -331,3 +331,43 @@ a {
     line-height: 1.75;
     color: #2E80CE;
 }
+
+/* Feature */
+
+.feature {
+    padding: 170px 0;
+}
+
+.feature__inner {
+    display: flex;
+    align-items: center;
+    gap: 130px;
+}
+
+.feature__media {
+    width: 48%;
+}
+
+.feature__images {
+    position: relative;
+    padding-bottom: 121px;
+}
+
+.feature__img {
+    width: 512px;
+    height: 370px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.feature__img:first-child {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 332px;
+    height: 370px;
+}
+
+.feature__content .btn {
+    margin-top: 38px;
+}
