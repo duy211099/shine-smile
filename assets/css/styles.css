@@ -433,6 +433,14 @@ a {
     color: #575f66;
 }
 
+.member__control {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
 .control__btn {
     display: flex;
     align-items: center;
@@ -444,7 +452,14 @@ a {
     outline: none;
     color: #575f66;
     background: #fff;
+    cursor: pointer;
     transition: 0.25s;
+}
+
+.control__btn:hover {
+    border-color: #2E80CE;
+    background: #2E80CE;
+    color: white;
 }
 
 .control-next-icon {
