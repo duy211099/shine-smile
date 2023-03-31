@@ -550,6 +550,7 @@ a {
     width: 100%;
     aspect-ratio: 270 / 172;
     object-fit: cover;
+    overflow: hidden;
 }
 
 .news__list {
@@ -564,6 +565,23 @@ a {
     background: #FFFFFF;
     border: 1px solid #E8EBEE;
     border-radius: 12px;
+}
+
+.news-item:hover {
+    box-shadow: 0px 18px 50px rgba(0, 0, 0, 0.05);
+    border-color: transparent;
+}
+
+.news-item__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.25s;
+    scale: 1.2;
+}
+.news-item:hover .news-item__img {
+    transform: scale(1.2);
 }
 
 .news-item__body {
