@@ -435,9 +435,12 @@ a {
 
 .member__control {
     margin-top: 38px;
-    display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.control {
+    display: flex;
     gap: 18px;
 }
 
@@ -464,4 +467,126 @@ a {
 
 .control-next-icon {
     rotate: 180deg;
+}
+
+/* Install */
+.install {
+    padding-top: 95px;
+}
+
+.install__inner {
+    padding: 0 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #2E80CE;
+    border-radius: 4px;
+}
+
+.install__img {
+    margin-top: -95px;
+    display: block;
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+}
+
+.install__content {
+    width: 586px;
+}
+
+.install__heading,
+.install__desc {
+    color: white;
+}
+
+.install__desc {
+    margin-top: 18px;
+    max-width: unset;
+}
+
+.install__row {
+    margin-top: 38px;
+    display: flex;
+    gap: 18px;
+    border: none;
+    background: none;
+}
+
+.install__btn {
+    cursor: pointer;
+}
+
+/* News */
+.news {
+    padding: 170px 0;
+}
+
+.news__heading {
+    max-width: 470px;
+}
+
+.news__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news__more {
+    margin-top: 28px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.56;
+    text-decoration-line: underline;
+    color: #10375C;
+}
+
+.news__control {
+    margin-top: 40px;
+}
+
+.news-item__thumb {
+    width: 100%;
+    aspect-ratio: 270 / 172;
+    object-fit: cover;
+}
+
+.news__list {
+    width: 570px;
+    display: flex;
+    gap: 30px;
+}
+
+.news-item {
+    flex: 1;
+    background: #FFFFFF;
+    border: 1px solid #E8EBEE;
+    border-radius: 12px;
+}
+
+.news-item__body {
+    padding: 18px 23px;
+}
+
+.news-item__heading {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.62;
+    color: #10375C;
+}
+
+.news-item__desc {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.71;
+    color: #575F66;
+}
+
+.news-item__more {
+    display: inline-block;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.28;
+    color: #2E80CE;
 }
