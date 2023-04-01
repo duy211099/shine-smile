@@ -565,6 +565,7 @@ a {
     background: #FFFFFF;
     border: 1px solid #E8EBEE;
     border-radius: 12px;
+    transition: all 0.25s;
 }
 
 .news-item:hover {
@@ -578,7 +579,11 @@ a {
     height: 100%;
     object-fit: cover;
     transition: all 0.25s;
-    scale: 1.2;
+    scale: 1;
+}
+
+.news-item:hover {
+    transform: translateY(-8px);
 }
 
 .news-item:hover .news-item__img {
