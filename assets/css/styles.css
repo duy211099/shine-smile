@@ -133,7 +133,7 @@ a {
 }
 
 .hero {
-    margin-top: 76px;
+    padding: 76px 0 110px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -660,4 +660,116 @@ a {
 
 .appointment__btn {
     margin-top: 38px;
+}
+
+/* Footer */
+
+.footer {
+    padding-top: 100px;
+    background: #10375C;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer__top {
+    padding-bottom: 92px;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
+    column-gap: 78px;
+    border-bottom: 1px solid #406181;
+}
+
+.footer__desc {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #A9B3BB;
+}
+
+.footer__column .footer__heading:not(:first-child) {
+    margin-top: 20px;
+}
+
+.footer__heading {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #FFFFFF;
+}
+
+.footer__list {
+    margin-top: 20px;
+}
+
+.footer__list a {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #A9B3BB;
+}
+
+.footer__list li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer__list li+li {
+    margin-top: 10px;
+}
+
+.footer form {
+    margin-top: 10px;
+    display: flex;
+    gap: 12px;
+}
+
+.footer form input {
+    padding: 10px;
+    height: 46px;
+    width: 212px;
+    border: 1px solid #406181;
+    border-radius: 4px;
+    background: transparent;
+    color: #9CA8B1;
+}
+
+.footer form button {
+    border-radius: 4px;
+    font-size: 1.4rem;
+    height: 46px;
+    width: 108px;
+    min-width: unset;
+}
+
+.footer__social {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.footer__social-btn {
+    width: 32px;
+    height: 32px;
+    background: #FFFFFF;
+    color: #2E80CE;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .25s;
+}
+
+.footer__social-btn:hover {
+    color: #FFFFFF;
+    background: #2E80CE;
+}
+
+.footer__bottom {
+    text-align: center;
+    padding: 28px 0 42px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    text-align: center;
+    color: #AAB3BA;
 }
